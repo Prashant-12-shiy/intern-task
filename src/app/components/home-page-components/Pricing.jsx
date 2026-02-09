@@ -65,7 +65,7 @@ const Pricing = () => {
             <p>per user / month,</p>
             <p>1 year commitment</p>
             </div>
-            <button>
+    
               <button className="bg-[#FDE5EB] rounded-2xl border h-11 w-44 flex justify-around items-center">
                 <Image
                   src={"/assets/red-whatsapp.png"}
@@ -75,7 +75,6 @@ const Pricing = () => {
                 />
                 <p className="text-red-800">Contact Sales</p>
               </button>
-            </button>
           </div>
 
           <div className="h-full w-1">
