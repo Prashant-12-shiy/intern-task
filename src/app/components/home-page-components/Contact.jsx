@@ -18,7 +18,7 @@ const Contact = () => {
       तपाईंको company को unique requirements अनुसार तयार गरिएको solution सँग
       efficiency र collaboration maximize गर्नुहोस्।
     </p>
-    <div className="flex flex-col sm:flex-row gap-4 max-md:items-start sm:gap-6 lg:gap-10 items-center justify-center mt-4 sm:mt-6">
+    <div className="flex flex-col lg:flex-row gap-4 max-lg:items-start sm:gap-6 lg:gap-10 items-center justify-center mt-4 sm:mt-6">
       <button className="bg-[#FDE5EB] rounded-2xl border h-10 sm:h-11 max-md:w-[60%] lg:w-[600px] flex justify-center md:justify-center items-center gap-3 sm:gap-4 px-4 sm:px-0">
         <img
           src={"/assets/red-whatsapp.png"}
@@ -30,8 +30,8 @@ const Contact = () => {
         <p className="text-red-800 text-sm sm:text-base">Message on WhatsApp</p>
       </button>
 
-      <div className="flex items-center gap-4 sm:gap-6 w-full justify-center max-md:justify-start">
-        <hr className="bg-gray-500 border lg:rotate border h-6 text-gray-400 hidden sm:block" />
+      <div className="flex items-center gap-4 sm:gap-6 w-full justify-center max-lg:justify-start">
+        <hr className="bg-gray-500 border lg:rotate border h-6 text-gray-400 hidden lg:block" />
         <p className="font-medium text-sm sm:text-base">call: +977 9864333517</p>
       </div>
     </div>

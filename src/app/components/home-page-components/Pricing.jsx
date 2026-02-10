@@ -13,7 +13,7 @@ const Pricing = () => {
     <div className="w-full flex items-center flex-col mt-8 md:mt-20">
   {/* trusted company section */}
   <div className="flex flex-col items-center px-4 md:px-0">
-    <p className="text-center text-lg md:text-2xl font-medium max-w-full md:max-w-120 opacity-80 mb-4 md:mb-6 px-2">
+    <p className="text-center text-lg md:text-2xl font-medium max-w-full md:max-w-130 opacity-80 mb-4 md:mb-6 px-2">
       Trusted by 1,000+ Nepali businesses on their growth journey.{" "}
       <span className="text-[#4285F4]">अब तपाईंको team तयार छ?</span>
     </p>
@@ -28,7 +28,7 @@ const Pricing = () => {
 
   {/* pricing and features company section */}
   <div className="mt-12 md:mt-26 w-full max-w-[1218px] px-4 md:px-8 lg:px-0 flex flex-col items-center">
-    <div className="max-w-full md:max-w-190 flex flex-col items-center gap-3 md:gap-4">
+    <div className="max-w-full md:max-w-200 flex flex-col items-center gap-3 md:gap-4">
       <p className="text-2xl md:text-4xl lg:text-5xl text-center leading-[108%] font-medium px-2">
         के{" "}
         <span className="font-medium gradient-text text-2xl md:text-4xl lg:text-5xl pb-2 md:pb-5">
@@ -46,7 +46,7 @@ const Pricing = () => {
 
       <img 
         src="/assets/google-apps2.png" 
-        className="h-5 w-auto md:h-6 lg:h-auto"
+        className="h-5 w-auto md:h-6 lg:h-auto md:w-[198px]"
         alt="Google Apps"
       />
     </div>
@@ -89,7 +89,7 @@ const Pricing = () => {
       </div>
 
       {/* Vertical Divider - Hidden on mobile, shown on desktop */}
-      <div className="hidden lg:block border opacity-50 bg-gray-500 border-gray-400 h-110 w-px" />
+      <div className="hidden lg:block border opacity-50 bg-gray-500 border-gray-400 h-110 w-px mx-20" />
       
       {/* Mobile horizontal divider */}
       <div className="lg:hidden w-full max-w-md h-px bg-gray-300 opacity-50" />
