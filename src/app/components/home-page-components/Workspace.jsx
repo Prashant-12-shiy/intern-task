@@ -2,7 +2,7 @@ import React from "react";
 
 const Workspace = () => {
   return (
-    <div className="w-auto flex items-center flex-col mt-20 ">
+    <div className="w-auto flex items-center flex-col mt-20 max-md:hidden">
       <div className="max-w-299 flex items-center flex-col ">
         <h2 className="max-w-160 text-[46px] text-center tracking-[106%] font-medium">
           <span className="text-[#4285F4]">सबै </span>
@@ -10,7 +10,7 @@ const Workspace = () => {
           <span className="text-[#4285F4]"> एउटै </span>
           Platform मा
         </h2>
-        <p className="font-medium gradient-text text-5xl mb-5">
+        <p className="font-medium gradient-text text-5xl pb-5">
           Google Workspace
         </p>
 

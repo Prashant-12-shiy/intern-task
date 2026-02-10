@@ -95,45 +95,29 @@ export const ControlfeaturesData = [
 ];
 
 
-export const SolutionsData = [
-    {
-        image: "/assets/solution-first.png",
-        title: "For enterprise",
-        uniqueText: [
-            {
-                text: "tools for enterprise",
-                link: "#"
-            }
-        ],
-        description:
-            "Secure collaboration tools for enterprise, with premium AI and enterprise-grade security built in for all the ways work is changing."
-    },
-    {
-        image: "/assets/solution-secon.png",
-        title: "For small business",
-        uniqueText: [
-            {
-                text: "Tools for small businesses",
-                link: "#"
-            }
-        ],
-        description:
-            "Tools for small businesses that help teams and individuals with everyday tasks like scheduling appointments and email marketing."
-    },
-    {
-        image: "/assets/solution-third.png",
-        title: "For new business",
-        uniqueText: [
-            {
-                text: "new businesses",
-                link: "#"
-            },
-            {
-                text: "startups",
-                link: "#"
-            }
-        ],
-        description:
-            "Essentials tools for new businesses and startups, including business email domains, online file sharing and storage, and more."
-    }
+export const faqsData = [
+  {
+    question: "Is Google Workspace compatible with my current email client?",
+    answer:
+      "Yes. Google Workspace supports IMAP and POP, so you can use it with most email clients like Outlook, Apple Mail, and Thunderbird."
+  },
+  {
+    question: "Can I transfer my current Google Workspace account to Nest Nepal?",
+    answer:
+      "Yes, Nest Nepal can help transfer your existing Google Workspace account with full support and no downtime."
+  },
+  {
+    question: "Are there any fees for transferring a domain to Nest Nepal?",
+    answer:
+      "Domain transfer fees depend on the domain provider. Nest Nepal will guide you through the process transparently."
+  },
+  {
+    question: "Are there any hidden charges for Nest Nepal Customers?",
+    answer:
+      "No. Nest Nepal maintains transparent pricing with no hidden fees."
+  },
+  {
+    question: "What all does Gsuite productivity suite include?",
+    answer: "What all does Gsuite productivity suite include?"
+  }
 ];
